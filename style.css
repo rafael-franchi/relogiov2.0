@@ -7,19 +7,22 @@
 }
 
 body{
-    height: 100vh;
+    height: 90vh;
     background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
-    display: flex;
+    display: flexbox;
     align-items: center;
     justify-content: center;
 }
 
 .relogio {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 220px;
-    width: 550px;
+    width: 600px;
     background: transparent;
     border-radius: 3px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
@@ -48,3 +51,42 @@ body{
     font-size: 10px;
 }
 
+/* calendario*/
+
+.calendario {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+    width: 600px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.calendario div {
+    height: 90px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.calendario span {
+    font-weight: bolder;
+    font-size: 50px;
+   
+}
+
+.calendario span.tempo {
+    font-size: 10px;
+}
